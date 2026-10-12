@@ -1,0 +1,1328 @@
+{
+  "class": "ShadedOverlay",
+  "generated_at": "2026-10-12 14:10:10",
+  "gma3_version": "2.4.2.2",
+  "properties": [
+    {
+      "default_value": "true",
+      "id": 0,
+      "property_name": "IGNORENETWORK",
+      "status": "[R-System]",
+      "type": "boolean",
+      "writable": false
+    },
+    {
+      "default_value": "false",
+      "id": 1,
+      "property_name": "STRUCTURELOCKED",
+      "status": "[R]",
+      "type": "boolean",
+      "writable": false
+    },
+    {
+      "default_value": "false",
+      "id": 2,
+      "property_name": "SYSTEMLOCKED",
+      "status": "[R]",
+      "type": "boolean",
+      "writable": false
+    },
+    {
+      "default_value": "\"\"",
+      "id": 3,
+      "property_name": "LOCK",
+      "status": "[R]",
+      "type": "string",
+      "writable": false
+    },
+    {
+      "default_value": "3",
+      "id": 4,
+      "property_name": "INDEX",
+      "status": "[R]",
+      "type": "number",
+      "writable": false
+    },
+    {
+      "default_value": "4",
+      "id": 5,
+      "property_name": "COUNT",
+      "status": "[R]",
+      "type": "number",
+      "writable": false
+    },
+    {
+      "default_value": "3",
+      "id": 6,
+      "property_name": "NO",
+      "status": "[R]",
+      "type": "number",
+      "writable": false
+    },
+    {
+      "default_value": "ShadedOverlay 3",
+      "id": 7,
+      "property_name": "NAME",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "\"\"",
+      "id": 8,
+      "property_name": "NOTE",
+      "status": "[R]",
+      "type": "string",
+      "writable": false
+    },
+    {
+      "default_value": "false",
+      "id": 9,
+      "property_name": "USEREXPANDED",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 10,
+      "property_name": "FADERENABLED",
+      "status": "[R]",
+      "type": "boolean",
+      "writable": false
+    },
+    {
+      "default_value": "false",
+      "id": 11,
+      "property_name": "OWNED",
+      "status": "[R]",
+      "type": "boolean",
+      "writable": false
+    },
+    {
+      "default_value": "false",
+      "id": 12,
+      "property_name": "HIDDEN",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "\"\"",
+      "id": 13,
+      "property_name": "DEPENDENCYEXPORT",
+      "status": "[R]",
+      "type": "string",
+      "writable": false
+    },
+    {
+      "default_value": "0",
+      "id": 14,
+      "property_name": "MEMORYFOOTPRINT",
+      "status": "[R]",
+      "type": "number",
+      "writable": false
+    },
+    {
+      "default_value": "0",
+      "id": 15,
+      "property_name": "X",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "0",
+      "id": 16,
+      "property_name": "Y",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": " 100.0000000000%(0)",
+      "id": 17,
+      "property_name": "W",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": " 100.0000000000%(0)",
+      "id": 18,
+      "property_name": "H",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "(table) table",
+      "id": 19,
+      "property_name": "ABSRECT",
+      "status": "[R-Object]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) table",
+      "id": 20,
+      "property_name": "ABSCLIENTRECT",
+      "status": "[R-Object]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(userdata) Root 19.2.1.267",
+      "id": 21,
+      "property_name": "TEXTURE",
+      "status": "[R-Object]",
+      "type": "userdata",
+      "writable": false
+    },
+    {
+      "default_value": "(userdata) Root 19.2.2.16",
+      "id": 22,
+      "property_name": "FONT",
+      "status": "[R-Object]",
+      "type": "userdata",
+      "writable": false
+    },
+    {
+      "default_value": "(userdata) Root 19.2.2.18",
+      "id": 23,
+      "property_name": "LOWDPIFONT",
+      "status": "[R-Object]",
+      "type": "userdata",
+      "writable": false
+    },
+    {
+      "default_value": "\"\"",
+      "id": 24,
+      "property_name": "TEXT",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "\"\"",
+      "id": 25,
+      "property_name": "TOOLTIP",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "\"\"",
+      "id": 26,
+      "property_name": "HELPTOPIC",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "(userdata) Color 16.1",
+      "id": 27,
+      "property_name": "BACKCOLOR",
+      "status": "[R-Object]",
+      "type": "userdata",
+      "writable": false
+    },
+    {
+      "default_value": "(userdata) Color 17.2",
+      "id": 28,
+      "property_name": "TEXTCOLOR",
+      "status": "[R-Object]",
+      "type": "userdata",
+      "writable": false
+    },
+    {
+      "default_value": "(userdata) Color 17.3",
+      "id": 29,
+      "property_name": "TEXTSHADOWCOLOR",
+      "status": "[R-Object]",
+      "type": "userdata",
+      "writable": false
+    },
+    {
+      "default_value": "nil",
+      "id": 30,
+      "property_name": "MIXINBACKCOLOR",
+      "status": "[W]",
+      "type": "unknown",
+      "writable": true
+    },
+    {
+      "default_value": "(userdata) Color 1.7",
+      "id": 31,
+      "property_name": "HIGHLIGHTEDCOLOR",
+      "status": "[R-Object]",
+      "type": "userdata",
+      "writable": false
+    },
+    {
+      "default_value": "false",
+      "id": 32,
+      "property_name": "TEXTVERTICAL",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 33,
+      "property_name": "TEXTAUTOADJUST",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "true",
+      "id": 34,
+      "property_name": "TEXTUNIFORM",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "0",
+      "id": 35,
+      "property_name": "FRAMEWIDTH",
+      "status": "[W]",
+      "type": "number",
+      "writable": true
+    },
+    {
+      "default_value": "(table) table",
+      "id": 36,
+      "property_name": "PADDING",
+      "status": "[R-Object]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "Never",
+      "id": 37,
+      "property_name": "FOCUS",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "None",
+      "id": 38,
+      "property_name": "USERRIGHTS",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "true",
+      "id": 39,
+      "property_name": "VISIBLE",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 40,
+      "property_name": "CANCOEXISTWITHMODAL",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "true",
+      "id": 41,
+      "property_name": "USERVISIBLE",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "true",
+      "id": 42,
+      "property_name": "ENABLED",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "true",
+      "id": 43,
+      "property_name": "INTERACTIVE",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 44,
+      "property_name": "TRANSPARENT",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 45,
+      "property_name": "BLOCKCLICKTHRU",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 46,
+      "property_name": "USERINTERACTED",
+      "status": "[R]",
+      "type": "boolean",
+      "writable": false
+    },
+    {
+      "default_value": "false",
+      "id": 47,
+      "property_name": "HASHOVER",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 48,
+      "property_name": "SEPARATOR",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "true",
+      "id": 49,
+      "property_name": "HASPRESSEDANIMATION",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "true",
+      "id": 50,
+      "property_name": "CONTENTDRIVEN",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "true",
+      "id": 51,
+      "property_name": "CONTENTWIDTH",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "true",
+      "id": 52,
+      "property_name": "CONTENTHEIGHT",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 53,
+      "property_name": "FORCECONTENTMIN",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 54,
+      "property_name": "WANTSNUMERICREDIRECT",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "None",
+      "id": 55,
+      "property_name": "CLOSEACTION",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "0",
+      "id": 56,
+      "property_name": "AUTOCLOSEVALUE",
+      "status": "[W]",
+      "type": "number",
+      "writable": true
+    },
+    {
+      "default_value": "0",
+      "id": 57,
+      "property_name": "UIGROUPID",
+      "status": "[W]",
+      "type": "number",
+      "writable": true
+    },
+    {
+      "default_value": "nil",
+      "id": 58,
+      "property_name": "LABELLINKHANDLE",
+      "status": "[W]",
+      "type": "unknown",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 59,
+      "property_name": "IGNOREBACKDROPPADDING",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 60,
+      "property_name": "MIXINBACKCOLORFROMPARENT",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 61,
+      "property_name": "MIXINBACKCOLORFROMPARENTRECURSIVE",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "Force",
+      "id": 62,
+      "property_name": "FOCUSSEARCHPOLICY",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 63,
+      "property_name": "IGNOREREQUESTEDSIZE",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 64,
+      "property_name": "FORCEENCODERBAR",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 65,
+      "property_name": "SUPPRESSOVERLAYAUTOCLOSE",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 66,
+      "property_name": "ISCLOSING",
+      "status": "[R]",
+      "type": "boolean",
+      "writable": false
+    },
+    {
+      "default_value": "false",
+      "id": 67,
+      "property_name": "TEXTSHADOW",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 68,
+      "property_name": "BLOCKAUTOTARGET",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "200,100",
+      "id": 69,
+      "property_name": "MINSIZE",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "0,0",
+      "id": 70,
+      "property_name": "MAXSIZE",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "(table) table",
+      "id": 71,
+      "property_name": "ANCHORS",
+      "status": "[R-Object]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "\"\"",
+      "id": 72,
+      "property_name": "SIGNALVALUE",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "\"\"",
+      "id": 73,
+      "property_name": "SIGNALVALUEHOLD",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "Left",
+      "id": 74,
+      "property_name": "ALIGNMENTH",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "Top",
+      "id": 75,
+      "property_name": "ALIGNMENTV",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "Center",
+      "id": 76,
+      "property_name": "TEXTALIGNMENTH",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "Center",
+      "id": 77,
+      "property_name": "TEXTALIGNMENTV",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "(table) table",
+      "id": 78,
+      "property_name": "MARGIN",
+      "status": "[R-Object]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) table",
+      "id": 79,
+      "property_name": "INTERACTIVEAREAEXTENSION",
+      "status": "[R-Object]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "0",
+      "id": 80,
+      "property_name": "SCROLLEVENTVERTICALSCROLLENTITY",
+      "status": "[W]",
+      "type": "number",
+      "writable": true
+    },
+    {
+      "default_value": "1.0",
+      "id": 81,
+      "property_name": "SCROLLEVENTVERTICALFACTOR",
+      "status": "[W]",
+      "type": "number",
+      "writable": true
+    },
+    {
+      "default_value": "(userdata) Menu 575.2",
+      "id": 82,
+      "property_name": "PLUGINCOMPONENT",
+      "status": "[R-Object]",
+      "type": "userdata",
+      "writable": false
+    },
+    {
+      "default_value": "false",
+      "id": 83,
+      "property_name": "HASFOCUS",
+      "status": "[R]",
+      "type": "boolean",
+      "writable": false
+    },
+    {
+      "default_value": "false",
+      "id": 84,
+      "property_name": "HIDEFOCUSFRAME",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "\"\"",
+      "id": 85,
+      "property_name": "APPEARANCESOURCECLASSNAME",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 86,
+      "property_name": "VISIBLEONLYINALPHA",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 87,
+      "property_name": "VISIBLEONLYINBETA",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 88,
+      "property_name": "VISIBLEONLYINRELEASE",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 89,
+      "property_name": "VISIBLEONLYINDEBUG",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 90,
+      "property_name": "CLICKNEAREST",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "true",
+      "id": 91,
+      "property_name": "VISIBLEINALPHA",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "true",
+      "id": 92,
+      "property_name": "VISIBLEINBETA",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "true",
+      "id": 93,
+      "property_name": "VISIBLEINRELEASE",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 94,
+      "property_name": "CLICKED",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 95,
+      "property_name": "CLICKEDLEFT",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 96,
+      "property_name": "CLICKEDRIGHT",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 97,
+      "property_name": "DOUBLECLICKED",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 98,
+      "property_name": "MOUSEENTER",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 99,
+      "property_name": "MOUSELEAVE",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 100,
+      "property_name": "MOUSEOVERHOLD",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 101,
+      "property_name": "MOUSEUP",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 102,
+      "property_name": "MOUSEUPLEFT",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 103,
+      "property_name": "MOUSEUPRIGHT",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 104,
+      "property_name": "MOUSEDOWN",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 105,
+      "property_name": "MOUSEDOWNLEFT",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 106,
+      "property_name": "MOUSEDOWNRIGHT",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 107,
+      "property_name": "MOUSEDOWNHOLD",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 108,
+      "property_name": "KEYDOWN",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 109,
+      "property_name": "KEYUP",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 110,
+      "property_name": "CHARINPUT",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 111,
+      "property_name": "TOUCHSTART",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 112,
+      "property_name": "TOUCHUPDATE",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 113,
+      "property_name": "TOUCHEND",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 114,
+      "property_name": "ONLOAD",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 115,
+      "property_name": "ONVISIBLE",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 116,
+      "property_name": "DESCRIPTIONCHANGED",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 117,
+      "property_name": "FOCUSGET",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 118,
+      "property_name": "FOCUSLOST",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "0",
+      "id": 119,
+      "property_name": "FORCEINTENSITY",
+      "status": "[W]",
+      "type": "number",
+      "writable": true
+    },
+    {
+      "default_value": "0",
+      "id": 120,
+      "property_name": "DEFAULTMARGIN",
+      "status": "[W]",
+      "type": "number",
+      "writable": true
+    },
+    {
+      "default_value": "1",
+      "id": 121,
+      "property_name": "COLUMNS",
+      "status": "[W]",
+      "type": "number",
+      "writable": true
+    },
+    {
+      "default_value": "2",
+      "id": 122,
+      "property_name": "ROWS",
+      "status": "[W]",
+      "type": "number",
+      "writable": true
+    },
+    {
+      "default_value": "0",
+      "id": 123,
+      "property_name": "CELLWIDTH",
+      "status": "[W]",
+      "type": "number",
+      "writable": true
+    },
+    {
+      "default_value": "0",
+      "id": 124,
+      "property_name": "CELLHEIGHT",
+      "status": "[W]",
+      "type": "number",
+      "writable": true
+    },
+    {
+      "default_value": "0",
+      "id": 125,
+      "property_name": "BLOCKWIDTH",
+      "status": "[W]",
+      "type": "number",
+      "writable": true
+    },
+    {
+      "default_value": "0",
+      "id": 126,
+      "property_name": "BLOCKHEIGHT",
+      "status": "[W]",
+      "type": "number",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 127,
+      "property_name": "EXPANDCONTENT",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 128,
+      "property_name": "DEFAULTMARGINONBORDERS",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 129,
+      "property_name": "ENCODERUSEDISPLAY",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "None",
+      "id": 130,
+      "property_name": "ROWREDUCTIONPOLICY",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "PreferLast",
+      "id": 131,
+      "property_name": "COLREDUCTIONPOLICY",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 132,
+      "property_name": "SETROW",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 133,
+      "property_name": "CLOSE",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 134,
+      "property_name": "CLOSECONFIRM",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 135,
+      "property_name": "CLOSECANCEL",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "false",
+      "id": 136,
+      "property_name": "WANTSMODAL",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "true",
+      "id": 137,
+      "property_name": "AUTOCLOSE",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 138,
+      "property_name": "AUTOCLOSEONOVERLAY",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "true",
+      "id": 139,
+      "property_name": "CLOSEONESCAPE",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 140,
+      "property_name": "MOVE",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 141,
+      "property_name": "MOVESTART",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 142,
+      "property_name": "RESIZESTART",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 143,
+      "property_name": "RESIZE",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "(table) PropertyInvokeMeta",
+      "id": 144,
+      "property_name": "RESIZEEND",
+      "status": "[R-Event]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "Confirm",
+      "id": 145,
+      "property_name": "ESCMODALRESULT",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "true",
+      "id": 146,
+      "property_name": "STAYALWAYSVISIBLE",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 147,
+      "property_name": "RELATIVETODISPLAY",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "\"\"",
+      "id": 148,
+      "property_name": "EDITENCODERBAR",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "\"\"",
+      "id": 149,
+      "property_name": "CONTROLENCODERBAR",
+      "status": "[W]",
+      "type": "string",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 150,
+      "property_name": "ADJUSTINITIALPOSITION",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "\"\"",
+      "id": 151,
+      "property_name": "BUDDYGROUPID",
+      "status": "[R]",
+      "type": "string",
+      "writable": false
+    },
+    {
+      "default_value": "true",
+      "id": 152,
+      "property_name": "ISMAINBUDDY",
+      "status": "[R]",
+      "type": "boolean",
+      "writable": false
+    },
+    {
+      "default_value": "(userdata) Display 1.11.3",
+      "id": 153,
+      "property_name": "MAINBUDDY",
+      "status": "[R-Object]",
+      "type": "userdata",
+      "writable": false
+    },
+    {
+      "default_value": "(table) table",
+      "id": 154,
+      "property_name": "DEPENDENTBUDDIES",
+      "status": "[R-Object]",
+      "type": "table",
+      "writable": false
+    },
+    {
+      "default_value": "false",
+      "id": 155,
+      "property_name": "USESIMPLIFIEDRESIZE",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "nil",
+      "id": 156,
+      "property_name": "WORKINGDESTINATION",
+      "status": "[R]",
+      "type": "unknown",
+      "writable": false
+    },
+    {
+      "default_value": "false",
+      "id": 157,
+      "property_name": "DRIVERESET",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 158,
+      "property_name": "OVERRIDEKEYBSC",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 159,
+      "property_name": "FOLLOWPREVIEW",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "false",
+      "id": 160,
+      "property_name": "REACTTOEDIT",
+      "status": "[W]",
+      "type": "boolean",
+      "writable": true
+    },
+    {
+      "default_value": "(userdata) Color 16.4",
+      "id": 161,
+      "property_name": "PREVIEWMIXINCOLOR",
+      "status": "[R-Object]",
+      "type": "userdata",
+      "writable": false
+    },
+    {
+      "default_value": "(userdata) Color 16.5",
+      "id": 162,
+      "property_name": "EDITMIXINCOLOR",
+      "status": "[R-Object]",
+      "type": "userdata",
+      "writable": false
+    },
+    {
+      "default_value": "(userdata) Color 16.6",
+      "id": 163,
+      "property_name": "EDITMIXINNOTOWNERCOLOR",
+      "status": "[R-Object]",
+      "type": "userdata",
+      "writable": false
+    },
+    {
+      "default_value": "nil",
+      "id": 164,
+      "property_name": "RETURNDESTINATION",
+      "status": "[W]",
+      "type": "unknown",
+      "writable": true
+    }
+  ],
+  "total_properties": 165
+}
